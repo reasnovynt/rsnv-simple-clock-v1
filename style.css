@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: #000;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+#clock {
+	font-size: 250px;
+	background: -webkit-linear-gradient(#2b32b2, #1488cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+}
